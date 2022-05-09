@@ -1,0 +1,48 @@
+body {
+    background-color: #E9C46A;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pizzas{
+    border: 8px solid #E76F51;
+    border-radius: 1.2em;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.8em ;
+    width: 20em;
+    display: inline-block;
+    min-height: 20em;
+}
+.small_pizza{
+    background-color: aliceblue;
+    flex : 1;
+}
+
+.medium_pizza{
+    background-color: antiquewhite;
+    flex : 2;
+}
+
+.Titanic_pizza{
+    background-color: aquamarine;
+    flex : 1;
+}
+
+.contact_details{
+    background-color: blanchedalmond;
+}
+
+@media (min-width:760px) {
+
+    body {background-color: black;}
+}
+
+@media (min-width:960px) {
+    body {
+        background: #fff;
+    }
+}
+.pizza {
+    padding: 2em;
+    display: flex;
+}

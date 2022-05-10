@@ -10,7 +10,7 @@ body {
     margin: 1em;
     margin-bottom: 0.8em ;
     width: 20em;
-    display: inline-block;
+    display: inline-block;/
     min-height: 20em;
 }
 .small_pizza{
@@ -20,7 +20,7 @@ body {
 
 .medium_pizza{
     background-color: antiquewhite;
-    flex : 2;
+    flex : 1;
 }
 
 .Titanic_pizza{
@@ -44,5 +44,9 @@ body {
 }
 .pizza {
     padding: 2em;
+    font-display: flex;
+}
+
+.container {
     display: flex;
 }
